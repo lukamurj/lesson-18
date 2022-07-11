@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+}
+.clock {
+  background-color: black;
+  width: 200px;
+  height: 100px;
+  position: relative;
+}
+.clock p {
+  color: blue;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
